@@ -1,7 +1,11 @@
+
+
 titulos 
-font-family: Georgia, "Times New Roman", Times, serif;
-color titulos:
-color: rgb(47, 33, 21)
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(47, 33, 21);
+    font-size: 3rem;
+
 
 parrafos:
 font-family:
@@ -16,12 +20,21 @@ font-family:
         "Open Sans",
         "Helvetica Neue",
         sans-serif;
+        color: rgb(47, 33, 21);
+        font-size: 18px;
 
-color parrafo:
-color: rgb(47, 33, 21);
+titulos naranjados:
 
-titulos naranjados 
 color: rgb(219, 107, 15);
 letter-spacing: 5px;
 font-size: 1rem;
+
+hover cards:
+
+.:hover {
+  background-color: rgb(237, 233, 224);
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
     
