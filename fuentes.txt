@@ -31,10 +31,19 @@ font-size: 1rem;
 
 hover cards:
 
-.:hover {
+.-------:hover {
   background-color: rgb(237, 233, 224);
   cursor: pointer;
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
+linea final de los contenedores
+
+  border-bottom: 1px solid rgba(79, 61, 44, 0.207);
+
+borde de las cards:
+
+    border: 1px solid rgb(222, 202, 185);
+
     

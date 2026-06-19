@@ -12,17 +12,42 @@ body {
 
 header {
   height: 8%;
+  width: 100%;
   /* background-color: rgb(245, 242, 233); */
   display: flex;
-  padding-left: 3rem;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
   align-items: center;
-  font-family: cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.032);
+  background: rgba(255, 255, 255, 0.241);
   backdrop-filter: blur(2px);
+  gap: 1rem;
+  color: rgb(47, 33, 21);
+
+  .logoo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+
+  .menu {
+    display: flex;
+    gap: 2rem;
+
+    .menu-li {
+      list-style: none;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: rgb(47, 33, 21);
+      cursor: pointer;
+    }
+  }
+
+  .menu-li:hover {
+    color: rgb(142, 102, 68);
+  }
 }
 
 main {
@@ -690,5 +715,126 @@ main {
       sans-serif;
     color: rgb(47, 33, 21);
     font-size: 14px;
+  }
+}
+/* ========================================================================================================================================= */
+
+/* sexta parte */
+/* ========================================================================================================================================= */
+
+.main-6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: 1px solid rgba(79, 61, 44, 0.207);
+}
+
+.main-6-mitad-1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  .main-6-contenedor-cards {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+
+    .main-6-cards {
+      background-color: rgb(252, 250, 243);
+      border: 1px solid rgb(222, 202, 185);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: all 0.3s ease-in-out;
+
+      .main-6-mitad-1-h3 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgb(47, 33, 21);
+        font-size: 1.5rem;
+      }
+
+      .main-6-mitad-1-parrafo {
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          "Open Sans",
+          "Helvetica Neue",
+          sans-serif;
+        color: rgb(47, 33, 21);
+        font-size: 16px;
+      }
+    }
+  }
+
+  .main-6-cards:hover {
+    background-color: rgb(237, 233, 224);
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.main-6-mitad-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 1rem 1rem;
+
+  .main-6-mitad-2-p {
+    color: rgb(219, 107, 15);
+    letter-spacing: 5px;
+    font-size: 1rem;
+  }
+
+  .main-6-mitad-2-h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(47, 33, 21);
+    font-size: 3rem;
+  }
+
+  .main-6-mitad-2-pp {
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
+    color: rgb(47, 33, 21);
+    font-size: 18px;
+  }
+
+  .main-6-div-img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main-6-img {
+      width: 60%;
+      height: 100%;
+      border-radius: 1rem;
+    }
   }
 }
