@@ -48,10 +48,9 @@ header {
         color: rgb(47, 33, 21);
       }
     }
-  }
-
-  .menu-li:hover {
-    color: rgb(142, 102, 68);
+    .a-header:hover {
+      color: rgb(142, 102, 68);
+    }
   }
 }
 
